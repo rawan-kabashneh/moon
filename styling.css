@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+a
+{
+    text-decoration-line:none;
+}
+.navbar
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items:center;
+   
+  
+}
+.logo
+{
+    padding: 21.84px ;
+}
+.navbar ul
+{
+    list-style-type:none;
+}
+
+.list a
+{
+    color: #3A3845;
+   
+   
+
+}
+
+.list ul{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 60px ;
+   
+
+}
+.icons ul{
+    display:flex;
+    flex-wrap: wrap;
+    gap:24px;
+}
