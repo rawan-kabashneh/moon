@@ -50,6 +50,7 @@ background-color: white;
 width: 100% ;
 height: 82px;
 top: 0px;
+
 }
 .list ul
 {
@@ -71,7 +72,7 @@ top: 0px;
     }
      .navbar .row
      {
-        gap:112.25px;
+        gap:102.25px;
         margin-top: 24.41;
         margin-bottom: 24.41;
      }
@@ -347,7 +348,7 @@ top: 0px;
    font-weight: bold;
   
 }
-.rightchristmasAD
+.rightchristmasAD , .rightourblog
 {
     width: 50%;
     
@@ -412,7 +413,7 @@ top: 0px;
     
  }
 
-
+ }
 /*---------bestseller styling--------*/
 
 .bestsellers h1 , .newarrives h1
@@ -505,7 +506,6 @@ top: 0px;
         margin: 30px;
     }
 }
-
 
 /*---------styiling our history------------*/
 .ourhistories
@@ -666,7 +666,7 @@ top: 0px;
     
    
 }
-}
+
 
 @media screen  and (min-width: 280px) and (max-width:767px)
 {
@@ -716,9 +716,9 @@ top: 0px;
 }
 
 
-/*-------------new arrives stylling------------*/
-
-/* .newarrives h1
+/* -------------new arrives stylling------------*/
+/* 
+.newarrives h1
 {
     text-align: center;
     color:var(--primarycolor);
@@ -788,7 +788,7 @@ top: 0px;
     width: calc((100% - 10px ) / 2);
    }
   
-}  */
+}   */
 
 /*--------------------------our blog---------------------*/
 
