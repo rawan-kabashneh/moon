@@ -20,6 +20,8 @@ a
 {
     text-decoration:none;
     color:var(--primarycolor);
+    transition: .5s;
+
 }
 .container
 {
@@ -63,6 +65,10 @@ top: 0px;
     display: flex;
     gap:24px;
 }
+ .list ul a:hover
+ {
+      color:blue;
+ }
 
 
 @media  screen and (min-width: 280px) and (max-width: 767px){
@@ -76,13 +82,14 @@ top: 0px;
         gap:10.25px;
         margin-top: 24.41;
         margin-bottom: 24.41;
+        justify-content: space-between;
      }
       .navbar
       {
         position: fixed;
         z-index: 9;
         background-color: white;
-        width: 100% ;
+        width: 100vw ;
         height: 82px;
          top: 0px;
       }
@@ -118,7 +125,15 @@ top: 0px;
        margin-top: 24.41;
        margin-bottom: 24.41;
     }
+    .navbar
+    {
+        position: fixed;
+        z-index: 9;
+    }
 }
+
+
+
 /*---------------------------------------------*/
 .ad
 {
