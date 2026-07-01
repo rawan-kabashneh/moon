@@ -192,6 +192,7 @@ top: 0px;
     {
         margin-top: 82px;
     }
+   
     .adbacground img
     { 
         width:100%;
@@ -218,8 +219,13 @@ top: 0px;
     }
     .upperAd h1
     {
+        font-size:21px;
         margin-bottom: 30px;
     }
+ .upperAd  button{
+    position: absolute;
+    left: 30px;
+ }
 }
 @media screen  and (min-width: 425px) and (max-width:767px)
 {
